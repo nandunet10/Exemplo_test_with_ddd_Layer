@@ -1,0 +1,7 @@
+{
+  "ConnectionStrings": {
+    //"DefaultConnection": "data source=(localdb)\\MSSQLLocalDB;initial catalog=Corretores;Trusted_Connection=True;"
+    //"DefaultConnection": "data source=SUSEPSQL;initial catalog=Corretores;User ID=usrCorretores;Password=uHe4C07reto2eS"
+    "DefaultConnection": "data source=h-cdbd01;initial catalog=Corretores;User ID=usrCorretores;Password=U$rC044thr3S;"
+  }
+}

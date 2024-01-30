@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-TestExecutionAec.OfflineProcessor-65707625-629d-4fb2-baa7-7c38404ee72c</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="MediatR" Version="7.0.0" />
+	  <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+	  <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0" />
+	  <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="7.0.0" />
+	  <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />
+	  <PackageReference Include="Selenium.WebDriver" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestExecutionAec.Application\TestExecutionAec.Application.csproj" />
+  </ItemGroup>
+</Project>
